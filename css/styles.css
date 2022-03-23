@@ -1,0 +1,58 @@
+/*
+font-family: 'Dekko', cursive; *
+font-family: 'Indie Flower', cursive; *
+font-family: 'Short Stack', cursive;
+font-family: 'Yomogi', cursive; 
+
+#533B34 - dark brown
+#BD8F82 - medium brown
+#E1C5AA - light brown
+#E4908B - muave
+#FFF5EC - cream white
+*/
+
+body {
+    height: 2000px;
+    background: rgb(255,245,236);
+    background: linear-gradient(0deg, rgba(255,245,236,0.9587185215883228) 20%, rgba(244,205,197,1) 30%, rgba(225,197,170,1) 51%, rgba(227,200,174,1) 58%, rgba(243,225,208,1) 70%, rgba(255,245,236,0.9615196420365021) 77%);
+    font-family: 'Indie Flower', cursive;
+    color: #533b34;
+}
+
+#bodyBackground {
+    height: 2000px;
+    width: 95%;
+    background: #FFF5EC;
+}
+
+h1 {
+    font-family: 'Dekko', cursive;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .nav-link {
+    font-family: 'Dekko', cursive; 
+    font-size: 1.4rem;
+    color: #BD8F82;
+    text-decoration: none;
+
+}
+.nav-link:hover {
+    font-family: 'Dekko', cursive; 
+    color: #533B34;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
