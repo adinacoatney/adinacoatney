@@ -12,20 +12,19 @@ font-family: 'Yomogi', cursive;
 */
 
 body {
-    height: 2000px;
     background: rgb(24, 23, 22);
     background: linear-gradient(0deg, rgba(255,245,236,0.9587185215883228) 20%, rgba(244,205,197,1) 30%, rgba(225,197,170,1) 51%, rgba(227,200,174,1) 58%, rgba(243,225,208,1) 70%, rgba(255,245,236,0.9615196420365021) 77%);
     font-family: 'Indie Flower', cursive;
     color: #533b34;
+    font-size: 1.2rem;
 }
 
 #bodyBackground {
-    height: 2000px;
-    width: 95%;
+    width: 98%;
     background: #FFF5EC;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: 'Dekko', cursive;
 }
 
@@ -38,7 +37,9 @@ h1 {
     stroke: currentColor;
     fill: currentColor;
   }
-  
+  .navbar.active {
+    background: #BD8F82;
+  }
   .nav-link {
     font-family: 'Dekko', cursive; 
     font-size: 1.3rem;
@@ -80,6 +81,9 @@ h1 {
     color: #BD8F82;
 
 }
+.px-btn {
+  background: #BD8F82;
+}
 .sm-icons {
     flex-direction: row;
   }
@@ -88,28 +92,31 @@ h1 {
       padding-right: 1em;
     }
   }
-  .about-text h3 {
-    font-size: 45px;
+  .about-text h1 {
+    font-size: 3rem;
     font-weight: 700;
     margin: 0 0 10px;
   }
   @media (max-width: 767px) {
-    .about-text h3 {
-      font-size: 35px;
+    .about-text h1 {
+      font-size: 2.5rem;
     }
   }
 
-  .about-text h4 {
+  .about-text h2 {
     font-weight: 600;
     margin-bottom: 15px;
   }
   @media (max-width: 767px) {
-    .about-text h4 {
-      font-size: 18px;
+    .about-text h2 {
+      font-size: 1.8rem;
     }
   }
+  #about {
+    margin-top: 150px !important;
+  }
   .about-text p {
-    font-size: 18px;
+    font-size: 1.5rem;
   }
   .about-text p mark {
     font-weight: 600;
@@ -160,7 +167,6 @@ h1 {
   }
   
   .about-img {
-    margin-top: 100px;
     padding: 10px;
   }
   @media (max-width: 991px) {
@@ -184,28 +190,29 @@ h1 {
   .counter-section p {
     font-weight: 500;
     margin: 0;
-    color: #fe4f6c;
+    color: #E4908B;
   }
   .theme-color {
-      color: #fe4f6c;
+      color: #E4908B;
   }
   
   .section {
       padding: 100px 0;
       position: relative;
   }
-  .gray-bg {
-      background-color: #ebf4fa;
-  }
+  
   .px-btn.theme {
-      background: #fe4f6c;
-      color: #ffffff;
-      border: 2px solid #fe4f6c;
+      background: #E4908B;
+      color: #FFF5EC;
+      text-decoration: none;
+      border: 1px solid transparent;
+      font-family: 'Dekko', cursive;
+      font-size: 1.3rem;
   }
   .px-btn {
-      padding: 0 20px;
+      padding: 0 40px;
       line-height: 42px;
-      border: 2px solid transparent;
+      border: 1px solid transparent;
       position: relative;
       display: inline-block;
       background: none;
@@ -215,20 +222,28 @@ h1 {
       -webkit-transition: ease all 0.35s;
       transition: ease all 0.35s;
       border-radius: 5px;
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 500;
   }
-  
-  .px-btn.theme-t {
-      background: transparent;
-      border: 2px solid #fe4f6c;
-      color: #fe4f6c;
+  .px-btn:hover {
+    border: 5px  #FFF5EC;
+    font-size: 1.2rem;
+    color: #533B34;
+    cursor: pointer;
   }
+
+
+#projects {
+  margin-top: 150px;
+}
+
+
   .bg-contact100 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin-top: 100px;
 }
 
 .container-contact100 {
@@ -243,12 +258,10 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: rgba(132, 106, 221, 0.9);
 }
 
 .wrap-contact100 {
     width: 1163px;
-    background: #fff;
     border-radius: 10px;
     overflow: hidden;
 
