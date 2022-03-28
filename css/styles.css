@@ -60,6 +60,12 @@ h1, h2, h3, h4 {
     transition-delay: .5s;
 
 }
+.navbar.navbar {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 
 .fas{
      color: #E4908B;
@@ -118,10 +124,7 @@ h1, h2, h3, h4 {
   .about-text p {
     font-size: 1.5rem;
   }
-  .about-text p mark {
-    font-weight: 600;
-    color: #3a3973;
-  }
+
   .about-text .btn-bar {
     padding-top: 8px;
   }
@@ -131,75 +134,12 @@ h1, h2, h3, h4 {
     margin-right: 10px;
   }
   
-  .about-list {
-    padding-top: 10px;
-  }
-  .about-list .media {
-    padding: 5px 0;
-  }
-  .about-list label {
-    color: #3a3973;
-    font-weight: 600;
-    width: 88px;
-    margin: 0;
-    position: relative;
-  }
-  .about-list label:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 11px;
-    width: 1px;
-    height: 12px;
-    background: #3a3973;
-    -moz-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-    margin: auto;
-    opacity: 0.5;
-  }
-  .about-list p {
-    margin: 0;
-    font-size: 15px;
-  }
   
-  .about-img {
-    padding: 10px;
-  }
-  @media (max-width: 991px) {
-    .about-img {
-      margin-top: 30px;
-    }
-  }
-  
-  .counter-section {
-    padding: 40px 20px;
-  }
-  .counter-section .count-data {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .counter-section .count {
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 10px;
-  }
-  .counter-section p {
-    font-weight: 500;
-    margin: 0;
-    color: #E4908B;
-  }
   .theme-color {
       color: #E4908B;
   }
   
-  .section {
-      padding: 100px 0;
-      position: relative;
-  }
+
   
   .px-btn.theme {
       background: #E4908B;
@@ -423,7 +363,7 @@ textarea.input100 {
     width: 100%;
     height: 100%;
     box-shadow: 0px 0px 0px 0px;
-    color: rgba(132, 106, 221, 0.5);
+    color: #E4908B;
 }
 
 .input100:focus+.focus-input100 {
@@ -470,7 +410,7 @@ textarea.input100 {
 }
 
 .input100:focus+.focus-input100+.symbol-input100 {
-    color: #846add;
+    color: #E4908B;
     padding-left: 22px;
 }
 
@@ -490,7 +430,7 @@ textarea.input100 {
     width: 100%;
     height: 50px;
     border-radius: 25px;
-    background: #846add;
+    background: #E4908B;
     font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.5;
