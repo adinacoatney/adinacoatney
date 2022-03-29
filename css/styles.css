@@ -16,7 +16,7 @@ body {
     background: linear-gradient(0deg, rgba(255,245,236,0.9587185215883228) 20%, rgba(244,205,197,1) 30%, rgba(225,197,170,1) 51%, rgba(227,200,174,1) 58%, rgba(243,225,208,1) 70%, rgba(255,245,236,0.9615196420365021) 77%);
     font-family: 'Indie Flower', cursive;
     color: #533b34;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #bodyBackground {
@@ -43,14 +43,14 @@ h1, h2, h3, h4 {
   .nav-link {
     font-family: 'Dekko', cursive; 
     font-size: 1.3rem;
-    color: #BD8F82;
+    color: #533b34;
     text-decoration: none;
     letter-spacing: 3px;
 
 }
 .nav-link:hover {
     font-family: 'Dekko', cursive; 
-    color: #533B34;
+    color: #BD8F82;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #E4908B;
@@ -64,8 +64,16 @@ h1, h2, h3, h4 {
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+  background: #fff5ecdc;
+  
 }
-
+.navbar.navbar:hover {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #fff5ec;
+  
+}
 
 .fas{
      color: #E4908B;
@@ -106,6 +114,7 @@ h1, h2, h3, h4 {
   @media (max-width: 767px) {
     .about-text h1 {
       font-size: 2.5rem;
+      
     }
   }
 
@@ -119,7 +128,7 @@ h1, h2, h3, h4 {
     }
   }
   #about {
-    margin-top: 150px !important;
+    margin-top: 50px !important;
   }
   .about-text p {
     font-size: 1.5rem;
@@ -176,7 +185,10 @@ h1, h2, h3, h4 {
 #projects {
   margin-top: 150px;
 }
-
+.dark-color {
+  font-size: 3rem;
+  font-weight: 700;
+}
 
   .bg-contact100 {
     width: 100%;
@@ -198,6 +210,7 @@ h1, h2, h3, h4 {
     justify-content: center;
     align-items: center;
     padding: 15px;
+    
 }
 
 .wrap-contact100 {
@@ -224,21 +237,25 @@ h1, h2, h3, h4 {
 
 .contact100-pic img {
     max-width: 100%;
+    margin-top: 100px;
 }
 
 
 .contact100-form {
     width: 390px;
+    
 }
 
 .contact100-form-title {
     display: block;
-    font-family: Montserrat-ExtraBold;
-    font-size: 24px;
-    color: #333333;
+    font-family: 'Dekko', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #533B34;
     line-height: 1.2;
     text-align: left;
-    padding-bottom: 36px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
 }
 input {
   outline: none;
@@ -346,10 +363,9 @@ textarea.input100 {
     display: block;
     width: 100%;
     background: #e6e6e6;
-    font-family: Montserrat-Bold;
-    font-size: 15px;
+    font-size: 1.4rem;
     line-height: 1.5;
-    color: #666666;
+    color: #BD8F82;
 }
 
 
@@ -566,4 +582,13 @@ textarea.input100 {
 }
 button:hover {
   cursor: pointer;
+}
+#navbar-toggler-icon {
+  color: #533b34;
+}
+#navbar-toggler-icon:hover {
+  color: #BD8F82;
+   -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
 }
