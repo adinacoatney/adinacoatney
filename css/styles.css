@@ -149,7 +149,7 @@ h4 {
 }
 
 #about {
-  margin-top: 50px !important;
+  margin-top: 30px !important;
 }
 
 .about-text p {
@@ -286,7 +286,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .container-contact100 {
@@ -707,3 +707,7 @@ button:hover {
 h4 span{
   display: inline-block;
   } 
+  #my_projects {
+    text-align: center !important;
+    margin-top: 150px;
+  }
