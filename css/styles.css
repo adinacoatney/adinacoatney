@@ -10,6 +10,9 @@ font-family: 'Yomogi', cursive;
 #E4908B - muave
 #FFF5EC - cream white
 */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: rgb(24, 23, 22);
@@ -238,6 +241,10 @@ h4 {
   border: 1px solid transparent;
   font-family: 'Dekko', cursive;
   font-size: 1.3rem;
+}
+.px-btn:visited {
+  color: #fff5ec;
+  text-decoration: none;
 }
 
 .px-btn {
@@ -544,16 +551,13 @@ textarea.input100 {
   justify-content: center;
   align-items: center;
   padding: 0 25px;
-
+  text-decoration: none;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
 
-.contact100-form-btn:hover {
-  background: #333333;
-}
 
 
 @media (max-width: 1200px) {
@@ -679,4 +683,29 @@ button:hover {
   -moz-transition: ease all 0.35s;
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
+}
+#nameCredits {
+  color: #FFF5EC;
+  font-family: 'Dekko', cursive; 
+  background-color: #E4908B;
+}
+#nameCredits:hover {
+  background-color: #BD8F82;
+  cursor: pointer;
+  letter-spacing: 5px;
+
+}
+.fade-in-bottom {
+  animation:fade-in-bottom .5s cubic-bezier(.39,.575,.565,1.000) 2ms both
+}
+@keyframes fade-in-bottom {
+  0%{
+    transform:translateY(50px);opacity:0}100%{transform:translateY(0);opacity:1
+    }
+    0% {
+      transform: scale(0, .025);
+    }
+    50% {
+      transform: scale(1, .025);
+    }
 }
