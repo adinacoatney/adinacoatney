@@ -323,12 +323,11 @@ h4 {
 [  ]*/
 .contact100-pic {
   width: 310px;
-  padding-top: 55px;
 }
 
 .contact100-pic img {
   max-width: 100%;
-  margin-top: 100px;
+  
 }
 
 
@@ -338,15 +337,11 @@ h4 {
 }
 
 .contact100-form-title {
-  display: block;
   font-family: 'Dekko', cursive;
   font-size: 3rem;
   font-weight: 700;
   color: #533B34;
   line-height: 1.2;
-  text-align: left;
-  padding-bottom: 50px;
-  margin-bottom: 70px;
 }
 
 input {
@@ -709,3 +704,6 @@ button:hover {
       transform: scale(1, .025);
     }
 }
+h4 span{
+  display: inline-block;
+  } 
