@@ -299,13 +299,13 @@ h4{
 }
 
 #contact_me {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 #message_heart {
   width: 300px;
   height: 300px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 @media (min-width: 991px) {
@@ -332,16 +332,10 @@ button:hover {
   -webkit-transition: ease all 0.35s;
 }
 #nameCredits {
-  color: #FFF5EC;
+  color: #E4908B;
   font-family: 'Dekko', cursive; 
-  background-color: #E4908B;
 }
-#nameCredits:hover {
-  background-color: #BD8F82;
-  cursor: pointer;
-  letter-spacing: 5px;
 
-}
 .fade-in-bottom {
   animation:fade-in-bottom .5s cubic-bezier(.39,.575,.565,1.000) 2ms both
 }
