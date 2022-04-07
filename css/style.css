@@ -135,11 +135,7 @@ h4{
   flex-direction: row;
 }
 
-@media only screen and (max-width: 960px) {
-  .sm-icons .nav-item {
-    padding-right: 1em;
-  }
-}
+
 
 .about-text h1 {
   font-size: 3rem;
@@ -147,23 +143,12 @@ h4{
   margin: 0 0 10px;
 }
 
-@media (max-width: 767px) {
-  .about-text h1 {
-    font-size: 2.5rem;
-
-  }
-}
 
 .about-text h2 {
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-@media (max-width: 767px) {
-  .about-text h2 {
-    font-size: 1.8rem;
-  }
-}
 
 #about {
   margin-top: 30px !important;
@@ -173,51 +158,6 @@ h4{
   font-size: 1.5rem;
 }
 
-.about-text .btn-bar {
-  padding-top: 8px;
-}
-
-.about-text .btn-bar a {
-  min-width: 150px;
-  text-align: center;
-}
-.about-list {
-  padding-top:10px;
-}
-.about-list .media {
-  padding: 5px 0;
-}
-
-.about-list label {
-  color: #3a3973;
-  font-weight: 600;
-  width: 88px;
-  margin: 0;
-  position: relative;
-}
-.about-list label:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  margin-left: -50px !important;  /* 50% of your logo width */
-  top: 0;
-  bottom: 0;
-  right: 11px;
-  width: 1px;
-  height: 12px;
-  background: #3a3973;
-  -moz-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  margin: auto;
-  opacity: 0.5;
-}
-.about-list p {
-  margin: 0;
-  font-size: 1.5rem;
-}
 
 .theme-color {
   color: #E4908B;
@@ -227,11 +167,7 @@ h4{
   margin-top: 100px;
   padding: 10px;
 }
-@media (max-width: 991px) {
-  .about-img {
-    margin-top: 30px;
-  }
-}
+
 
 .px-btn.theme {
   background: #E4908B;
