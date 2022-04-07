@@ -12,7 +12,9 @@ font-family: 'Yomogi', cursive;
 html {
   scroll-behavior: smooth;
 }
-
+::selection {
+  background:#e1c5aa;
+}
 body {
   background: rgb(24, 23, 22);
   background: linear-gradient(0deg, rgba(255, 245, 236, 0.9587185215883228) 20%, rgba(244, 205, 197, 1) 30%, rgba(225, 197, 170, 1) 51%, rgba(227, 200, 174, 1) 58%, rgba(243, 225, 208, 1) 70%, rgba(255, 245, 236, 0.9615196420365021) 77%);
@@ -20,9 +22,7 @@ body {
   color: #533b34;
   font-size: 1.5rem;
 }
-::selection {
-  background: #e1c5aa;
-}
+
 #bodyBackground {
   width: 98%;
   background: #FFF5EC;
@@ -231,24 +231,6 @@ h4{
   .about-img {
     margin-top: 30px;
   }
-}
-
-.counter-section {
-  padding: 40px 20px;
-}
-.counter-section .count-data {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.counter-section .count {
-  font-weight: 700;
-  color: #ffffff;
-  margin: 0 0 10px;
-}
-.counter-section p {
-  font-weight: 500;
-  margin: 0;
-  color: #fe4f6c;
 }
 
 .px-btn.theme {
