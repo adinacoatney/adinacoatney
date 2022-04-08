@@ -131,11 +131,6 @@ h4{
   background: #BD8F82;
 }
 
-.sm-icons {
-  flex-direction: row;
-}
-
-
 
 .about-text h1 {
   font-size: 3rem;
@@ -164,8 +159,7 @@ h4{
 }
 
 .about-img {
-  margin-top: 100px;
-  padding: 10px;
+  margin-top: 50px;
 }
 
 
@@ -174,6 +168,14 @@ h4{
   color: #FFF5EC;
   text-decoration: none;
   border: 1px solid transparent;
+  font-family: 'Dekko', cursive;
+  font-size: 1.3rem;
+}
+
+.px-btn.theme-outline {
+  background-color: #BD8F82;
+  text-decoration: none;
+  border: 3px solid #533b34;
   font-family: 'Dekko', cursive;
   font-size: 1.3rem;
 }
@@ -208,12 +210,16 @@ h4{
 
 
 #projects {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .dark-color {
   font-size: 3rem;
   font-weight: 700;
+}
+#resume-download {
+  background-color: #533b34;
+  color: #fff5ec;
 }
 
 #contact_me {
