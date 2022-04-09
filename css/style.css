@@ -235,15 +235,6 @@ h4{
   margin-top: 50px;
 }
 
-@media (min-width: 991px) {
-  #message_heart:hover {
-  cursor: pointer;
-  width: 350px;
-  height: 350px;
-  -webkit-transition: ease all 0.5s;
-}
-}
-
 button:hover {
   cursor: pointer;
 }
