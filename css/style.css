@@ -31,12 +31,29 @@ body {
 h1,
 h2,
 h3,
-h4{
+h4 {
   font-family: 'Dekko', cursive;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.6rem;
 }
 
 #find-more  a {
   color: #BD8F82;
+  text-decoration: underline #E4908B 0.5rem;
+  text-underline-offset: 0.5rem;
 }
 #find-more {
   margin-top: 100px;
@@ -46,6 +63,7 @@ h4{
   background: #E4908B;
   font-size: 1.6rem;
 }
+
 
 .icon {
   display: inline-block;
@@ -127,22 +145,11 @@ h4{
 
 }
 
-.px-btn {
-  background: #BD8F82;
-}
-
-
 .about-text h1 {
-  font-size: 3rem;
-  font-weight: 700;
+
   margin: 0 0 10px;
 }
 
-
-.about-text h2 {
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 
 
 #about {
@@ -164,26 +171,21 @@ h4{
 
 
 .px-btn.theme {
-  background: #E4908B;
-  color: #FFF5EC;
+  background-color: #E4908B;
+  border: 3px solid #c9837f;
   text-decoration: none;
-  border: 1px solid transparent;
   font-family: 'Dekko', cursive;
   font-size: 1.3rem;
 }
 
 .px-btn.theme-outline {
-  background-color: #BD8F82;
-  text-decoration: none;
-  border: 3px solid #533b34;
+  background-color: #533b34;
+  color: #fff5ec;
   font-family: 'Dekko', cursive;
   font-size: 1.3rem;
 }
+
 .px-btn:visited {
-  color: #fff5ec;
-  text-decoration: none;
-}
-.px-btn.theme-outline:visited {
   color: #fff5ec;
   text-decoration: none;
 }
@@ -220,10 +222,7 @@ h4{
   font-size: 3rem;
   font-weight: 700;
 }
-#resume-download {
-  background-color: #533b34;
-  color: #fff5ec;
-}
+
 
 #contact_me {
   margin-bottom: 100px;
