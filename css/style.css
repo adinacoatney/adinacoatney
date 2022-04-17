@@ -113,10 +113,24 @@ h4 {
 
 @media only screen and (max-width: 985px) {
   #navbarSupportedContent {
-    background: #ecdccd73;
+    box-shadow: 10px 10px 8px #888888;
+    align-content: left;
     color:#533b34;
+    padding: 1em 0.7em;
+
 
 }
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
 }
 
 .fas {
@@ -275,3 +289,4 @@ h4 span{
     text-align: center !important;
     margin-top: 150px;
   }
+  
