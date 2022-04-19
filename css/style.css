@@ -24,7 +24,7 @@ body {
 }
 
 #bodyBackground {
-  width: 98%;
+  width: 95%;
   background: #FFF5EC;
 }
 
@@ -121,17 +121,7 @@ h4 {
 
 }
 }
-@media only screen and (min-width: 992px) {
-  .navbar {
-    padding: 0;
-  }
-  .navbar .navbar-nav .nav-link {
-    padding: 1em 0.7em;
-  }
-  .navbar .navbar-brand {
-    padding: 0 0.8em;
-  }
-}
+
 
 .fas {
   color: #E4908B;
@@ -159,6 +149,17 @@ h4 {
 
 }
 
+.toggle{
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+#light:hover{
+  color: yellow;
+}
 .about-text h1 {
 
   margin: 0 0 10px;
