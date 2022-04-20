@@ -157,9 +157,7 @@ h4 {
   -ms-transition: 0.70s;
   -o-transition: 0.70s;
 }
-#light:hover{
-  color: yellow;
-}
+
 .about-text h1 {
 
   margin: 0 0 10px;
@@ -194,7 +192,7 @@ h4 {
 }
 
 .px-btn.theme-outline {
-  background-color: #533b34;
+  background-color: #BD8F82;
   color: #fff5ec;
   font-family: 'Dekko', cursive;
   font-size: 1.3rem;
@@ -290,4 +288,15 @@ h4 span{
     text-align: center !important;
     margin-top: 150px;
   }
-  
+
+  #topArrow {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 40px; 
+    z-index: 99;
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    padding: 15px; 
+  }
