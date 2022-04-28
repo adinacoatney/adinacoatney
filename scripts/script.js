@@ -4,7 +4,6 @@ const light = document.getElementById('light')
 function toggleDark(){
     dark.classList.add('d-none')
     light.classList.remove('d-none')
-    document.getElementById('bodyBackground').style.backgroundColor = "#533B34"
     document.body.style.background= "#533B34"
     document.body.style.color = "#FFF5EC"
 }
@@ -14,7 +13,6 @@ dark.addEventListener('click', toggleDark)
 function toggleLight(){
     light.classList.add('d-none')
     dark.classList.remove('d-none')
-    document.getElementById('bodyBackground').style.backgroundColor = "#FFF5EC"
     document.body.style.background= "#FFF5EC"
     document.body.style.color = "#533B34"
 }
@@ -38,3 +36,27 @@ function scrollFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
+  
+  document.addEventListener("DOMContentLoaded", function(){
+
+    el_autohide = document.querySelector('.autohide');
+  
+    if(el_autohide){
+      var last_scroll_top = 0;
+      window.addEventListener('scroll', function() {
+            let scroll_top = window.scrollY;
+           if(scroll_top < last_scroll_top) {
+                el_autohide.classList.remove('scrolled-down');
+                el_autohide.classList.add('scrolled-up');
+            }
+            else {
+                el_autohide.classList.remove('scrolled-up');
+                el_autohide.classList.add('scrolled-down');
+            }
+            last_scroll_top = scroll_top;
+      }); 
+      // window.addEventListener
+    }
+    // if
+  
+  }); 
