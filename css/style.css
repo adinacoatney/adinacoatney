@@ -16,8 +16,7 @@ html {
   background:#e1c5aa;
 }
 body {
-  background: rgb(24, 23, 22);
-  background: linear-gradient(0deg, rgba(255, 245, 236, 0.9587185215883228) 20%, rgba(244, 205, 197, 1) 30%, rgba(225, 197, 170, 1) 51%, rgba(227, 200, 174, 1) 58%, rgba(243, 225, 208, 1) 70%, rgba(255, 245, 236, 0.9615196420365021) 77%);
+  background: #FFF5EC;
   font-family: 'Indie Flower', cursive;
   color: #533b34;
   font-size: 1.5rem;
